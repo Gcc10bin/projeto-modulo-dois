@@ -51,35 +51,14 @@ header {
 	background-color: #F7A6A6;
 }
 
-/*corpo dos contatos
-
-
-.subtitulo{
-	display: flex;
-	flex-direction: column;
-	padding: 48px 0px;
-}
-
-.bordasContainer{
-	position: absolute;
-	top: 50px;
-	border: black 0px solid;
-} */
-
-.primeirBloco{
-	display: flex;
-}
-
-.segundoBloco{
-	display: flex;
-}
+/*corpo dos contatos*/
 
 .gabs{
-	/*position: absolute;
+	position: absolute;
 	top: 90px;
 	left: 150px;
 	width: 231px;
-	height: 179px;*/
+	height: 179px;
 	border-radius: 12px;
 	transition: .3s ease-in;
 	opacity: .8;
@@ -91,11 +70,11 @@ header {
 }
 
 .ju{
-	/*position: absolute;
+	position: absolute;
 	top: 90px;
 	left: 550px;
 	width: 231px;
-	height: 179px;*/
+	height: 179px;
 	border-radius: 12px;
 	transition: .3s ease-in;
 	opacity: .8;
@@ -107,11 +86,11 @@ header {
 }
 
 .camis{
-	/*position: absolute;
+	position: absolute;
 	top: 90px;
 	left: 950px;
 	width: 231px;
-	height: 179px;*/
+	height: 179px;
 	border-radius: 12px;
 	transition: .3s ease-in;
 	opacity: .8;
@@ -123,11 +102,11 @@ header {
 }
 
 .natan{
-	/*position: absolute;
+	position: absolute;
 	top: 350px;
 	left: 750px;
 	width:231px;
-	height: 179px;*/
+	height: 179px;
 	border-radius: 12px;
 	transition: .3s ease-in;
 	opacity: .8;
@@ -139,11 +118,11 @@ header {
 }
 
 .gabi{
-	/*position: absolute;
+	position: absolute;
 	top: 350px;
 	left: 350px;
 	width: 231px;
-	height: 179px;*/
+	height: 179px;
 	border-radius: 12px;
 	transition: .3s ease-in;
 	opacity: .8;
