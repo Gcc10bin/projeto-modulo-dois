@@ -1,3 +1,7 @@
+body{
+	height: 100vh
+}
+
 /*css do header*/
 header {
 	font-family: 'Inter', sans-serif;
@@ -47,11 +51,111 @@ header {
 	background-color: #F7A6A6;
 }
 
-/*corpo dos contatos*/
+/*corpo dos contatos
 
+
+.subtitulo{
+	display: flex;
+	flex-direction: column;
+	padding: 48px 0px;
+}
+
+.bordasContainer{
+	position: absolute;
+	top: 50px;
+	border: black 0px solid;
+} */
+
+.primeirBloco{
+	display: flex;
+}
+
+.segundoBloco{
+	display: flex;
+}
+
+.gabs{
+	/*position: absolute;
+	top: 90px;
+	left: 150px;
+	width: 231px;
+	height: 179px;*/
+	border-radius: 12px;
+	transition: .3s ease-in;
+	opacity: .8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(180deg, transparent 30%, rgb(250, 179, 179));
+}
+
+.ju{
+	/*position: absolute;
+	top: 90px;
+	left: 550px;
+	width: 231px;
+	height: 179px;*/
+	border-radius: 12px;
+	transition: .3s ease-in;
+	opacity: .8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(180deg, transparent 30%, rgb(250, 179, 179));
+}
+
+.camis{
+	/*position: absolute;
+	top: 90px;
+	left: 950px;
+	width: 231px;
+	height: 179px;*/
+	border-radius: 12px;
+	transition: .3s ease-in;
+	opacity: .8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(180deg, transparent 30%, rgb(250, 179, 179));
+}
+
+.natan{
+	/*position: absolute;
+	top: 350px;
+	left: 750px;
+	width:231px;
+	height: 179px;*/
+	border-radius: 12px;
+	transition: .3s ease-in;
+	opacity: .8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(180deg, transparent 30%, rgb(250, 179, 179));
+}
+
+.gabi{
+	/*position: absolute;
+	top: 350px;
+	left: 350px;
+	width: 231px;
+	height: 179px;*/
+	border-radius: 12px;
+	transition: .3s ease-in;
+	opacity: .8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(180deg, transparent 30%, rgb(250, 179, 179));
+}
 
 /*css do footer*/
-footer {
+.footer {
 	font-family: 'Inter', sans-serif;
 	color: white;
 	background-color: #201D38;
@@ -59,9 +163,10 @@ footer {
 }
 
 .footer {
+	margin-top: 40vh;
 	display: flex;
 	flex-direction: column;
-	padding: 48px 0px;
+	padding: 40px 0px;
 }
 
 .footerNavegacao {
@@ -233,6 +338,4 @@ footer {
 		gap: 16px;
 		cursor: pointer;
 	}
-}
-
-
+}	
