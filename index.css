@@ -2,6 +2,7 @@
 header {
 	font-family: 'Inter', sans-serif;
 	color: black;
+	height: 50vh;
 }
 
 .header {
@@ -48,28 +49,6 @@ header {
 
 /*corpo dos contatos*/
 
-.time{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    opacity: 80%;
-    font-family:'Inter', sans-serif;
-    color: black;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.gabs{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 600px;
-    background-color: #3F56A1;
-    font-family:'Inter', sans-serif;
-    color: black;
-    font-size: 14px;
-    font-weight: 600;
-}
 
 /*css do footer*/
 footer {
