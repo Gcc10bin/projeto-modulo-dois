@@ -55,82 +55,97 @@ header {
 
 .gabs{
 	position: absolute;
-	top: 90px;
-	left: 150px;
+	top: 155px;
+	left: 363px;
 	width: 231px;
 	height: 179px;
 	border-radius: 12px;
+	border: rgb(103, 0, 103) solid 1px;
+	outline: rgb(189, 189, 189) solid 5px;
+	padding: 25px;
 	transition: .3s ease-in;
 	opacity: .8;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(180deg, transparent 30%, rgb(250, 179, 179));
+	background: linear-gradient(180deg, plum 30%, rgb(250, 179, 179));
 }
+
+.gitGabs{
+	position: absolute;
+	top: 320px;
+	left: 430px;
+}
+
+.linkedinGabs{
+	position: absolute;
+	top: 322px;
+	left: 500px;
+}
+
+.apresentacaoGabs{
+	position: absolute;
+	top: 160px;
+	left: 390px;
+}
+
 
 .ju{
 	position: absolute;
-	top: 90px;
-	left: 550px;
-	width: 231px;
-	height: 179px;
-	border-radius: 12px;
-	transition: .3s ease-in;
-	opacity: .8;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background: linear-gradient(180deg, transparent 30%, rgb(250, 179, 179));
-}
-
-.camis{
-	position: absolute;
-	top: 90px;
+	top: 155px;
 	left: 950px;
 	width: 231px;
 	height: 179px;
 	border-radius: 12px;
+	border: rgb(103, 0, 103) solid 1px;
+	outline: rgb(189, 189, 189) solid 5px;
+	padding: 25px;
 	transition: .3s ease-in;
 	opacity: .8;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(180deg, transparent 30%, rgb(250, 179, 179));
+	background: linear-gradient(180deg, plum 30%, rgb(250, 179, 179));
 }
 
-.natan{
+.camis{
 	position: absolute;
-	top: 350px;
-	left: 750px;
-	width:231px;
+	top: 450px;
+	left: 850px;
+	width: 231px;
 	height: 179px;
 	border-radius: 12px;
+	border: rgb(103, 0, 103) solid 1px;
+	outline: rgb(189, 189, 189) solid 5px;
+	padding: 25px;
 	transition: .3s ease-in;
 	opacity: .8;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(180deg, transparent 30%, rgb(250, 179, 179));
+	background: linear-gradient(180deg, plum 30%, rgb(250, 179, 179));
 }
 
 .gabi{
 	position: absolute;
-	top: 350px;
-	left: 350px;
+	top: 450px;
+	left: 450px;
 	width: 231px;
 	height: 179px;
 	border-radius: 12px;
+	border: rgb(103, 0, 103) solid 1px;
+	outline: rgb(189, 189, 189) solid 5px;
+	padding: 25px;
 	transition: .3s ease-in;
 	opacity: .8;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(180deg, transparent 30%, rgb(250, 179, 179));
+	background: linear-gradient(180deg, plum 30%, rgb(250, 179, 179));
 }
 
 /*css do footer*/
